@@ -8,9 +8,9 @@
 '''
 
 def main():
-    array = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0]
+    numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0]
     
-    print(bubbleSort(array))
+    print(bubbleSort(numbers))
 
 def bubbleSort(array):
     array_length = len(array)
@@ -18,7 +18,7 @@ def bubbleSort(array):
         for j in range(0, array_length-1):
             if array[j] > array[j+1]:
                 array[j], array[j+1] = array[j+1], array[j]
-    return array
+    return f'The sorted array is {array}'
 
 if __name__ == '__main__':
     main()
