@@ -1,14 +1,14 @@
 '''
     A program that experiments bubble sort 
     
-    The time complexity of bubble sort is Big O(n^2)
+    The time complexity of bubble sort is Big O(n^2) that is quadratic
     
-    The space complexity is yet to be determined depending on how I implement the code 
+    The space complexity of bubble sort is Big O(1) that is constant time
     
 '''
 
 def main():
-    array = [2, 3, 1, 8, 4]
+    array = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0]
     
     print(bubbleSort(array))
 
