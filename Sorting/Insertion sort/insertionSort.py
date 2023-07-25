@@ -5,13 +5,15 @@
     
     The space complexity will be checked after the implementation
     
+    To Do: modify the insertionSort function to make it break when one o0f the elements is greater tan the first element in the already sorted part of the array 
+
 '''
 
 def main():
     numbers = [3, 2, 1, 8, 4]
     
     print(insertionSort(numbers))
-
+#
 def insertionSort(array):
     array_length = len(array)
     for i in range(0, array_length):
