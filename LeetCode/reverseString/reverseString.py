@@ -3,6 +3,12 @@
     
     Space complexity should be constant time 
     
+    Space complexity is Big O(1)
+    
+    Time complexity is Big O(N)
+    
+    TODO: Write a test for the reverse method
+    
 '''
 
 class String:
